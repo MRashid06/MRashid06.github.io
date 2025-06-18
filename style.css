@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap');
+.lunasima-regular {
+  font-family: "Lunasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lunasima-bold {
+  font-family: "Lunasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+
+body{
+    background-color: #344e67;
+}
+
+
 header,
 footer {
     background-color: #2c3e50;
@@ -8,12 +28,15 @@ footer {
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3.8em;
+    font-family: "Lunasima";
+    text-decoration: underline;
 }
 
 header p {
     margin: 5px 0 0 0;
     color: #bdc3c7;
+    font-size: 1.6em;
 }
 
 main {
@@ -27,6 +50,8 @@ section {
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba (0,0,0,0.1);
+    text-decoration: none;
+    color: white;
 }
 
 section h2 {
@@ -47,4 +72,26 @@ section h2 {
 
 .carte{
     background-color: rgba(159, 131, 88, 0.893);
+}
+
+.projets a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.projets a:hover{
+    color: rgb(41, 4, 128);
+    text-decoration: none;
+
+}
+
+.general{
+    display: flex;
+    flex-direction: row;
+}
+
+.image_messi img{
+    width : 8em;
+    height : 9em;
 }
